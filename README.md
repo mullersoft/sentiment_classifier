@@ -1,14 +1,18 @@
 
-# 🎬 IMDb Sentiment Classifier
+# IMDb Sentiment Classifier
 
 A simple machine learning pipeline for classifying IMDb-style movie reviews as **positive** or **negative** using `scikit-learn`. This project uses TF-IDF vectorization and a Logistic Regression classifier.
 
 ---
 
-## 📦 How to Install Dependencies
+## How to Download and Install Dependencies
 
 Make sure you have Python 3 installed.
 
+download the project:
+```bash
+git clone https://github.com/mullersoft/sentiment_classifier.git
+```
 Then install all required packages using:
 
 ```bash
@@ -16,7 +20,7 @@ pip install -r requirements.txt
 ```
 
 ---
-## 1. run as CMD
+## 1. Run as CMD
 
 ## Train the Model
 
@@ -50,7 +54,7 @@ Prediction: positive (0.93 confidence)
 
 ##  2. Run as a Web API 
 
-If you finish early, you can wrap the model into a web API using Flask in `app.py`.
+ wrap the model into a web API using Flask in `app.py`.
 
 ### Install Flask:
 ```bash
@@ -79,7 +83,7 @@ curl -X POST http://localhost:5000/predict -H "Content-Type: application/json" -
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 imdb_sentiment_classifier/
