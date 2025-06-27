@@ -70,7 +70,6 @@ python app.py
 **With curl (Windows CMD compatible):**
 ```cmd
 curl -X POST http://localhost:5000/predict -H "Content-Type: application/json" -d "{\"text\": \"This movie was absolutely amazing!\"}"
-"
 ```
 
 **Example response:**
